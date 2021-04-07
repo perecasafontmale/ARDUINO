@@ -18,15 +18,15 @@ void setup()
 //********** Loop *****************************************************************
 void loop()
 {
-                buttonState = digitalRead(buttonPin);  //llegir l’estat del button i gardar-lo
+   buttonState = digitalRead(buttonPin);  //llegir l’estat del button i gardar-lo
   if (buttonState == 0)
   {
- digitalWrite (led0,0);
-          }
-          else
-          {
- digitalWrite (led0,1);
-          }
-          delay(200);  //per no estar llegint button molt ràpid
+  digitalWrite(led0, HIGH);
  }
+ else
+ {
+  digitalWrite(led0, LOW);
+ }
+delay(200);  //per no estar llegint button molt ràpid
+}
 //********** Funcions *************************************************************
