@@ -57,9 +57,9 @@ void loop()
 
   //SEQÜENCIA_2_SEMÀFOR_B
   
-  digitalWrite(led2, LOW);    // posar a 5V el pin 10         (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11         (TARONJA)
-  digitalWrite(led4, HIGH);   // posar a 5V el pin 12         (VERD)
+  digitalWrite(led5, LOW);    // posar a 5V el pin 10         (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11         (TARONJA)
+  digitalWrite(led7, HIGH);   // posar a 5V el pin 12         (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -71,9 +71,9 @@ void loop()
 
   //SEQÜENCIA_3_SEMÀFOR_B
   
-  digitalWrite(led2, LOW);    // posar a 5V el pin 10         (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11         (TARONJA)
-  digitalWrite(led4, HIGH);   // posar a 5V el pin 12         (VERD)
+  digitalWrite(led5, LOW);    // posar a 5V el pin 10         (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11         (TARONJA)
+  digitalWrite(led7, HIGH);   // posar a 5V el pin 12         (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -85,9 +85,9 @@ void loop()
 
   //SEQÜENCIA_4_SEMÀFOR_B
   
-  digitalWrite(led2, LOW);    // posar a 5V el pin 10         (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11         (TARONJA)
-  digitalWrite(led4, HIGH);   // posar a 5V el pin 12         (VERD)
+  digitalWrite(led5, LOW);    // posar a 5V el pin 10         (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11         (TARONJA)
+  digitalWrite(led7, HIGH);   // posar a 5V el pin 12         (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -99,9 +99,9 @@ void loop()
 
   //SEQÜENCIA_5_SEMÀFOR_B
   
-  digitalWrite(led2, LOW);    // posar a 5V el pin 10         (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11         (TARONJA)
-  digitalWrite(led4, HIGH);   // posar a 5V el pin 12         (VERD)
+  digitalWrite(led5, LOW);    // posar a 5V el pin 10         (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11         (TARONJA)
+  digitalWrite(led7, HIGH);   // posar a 5V el pin 12         (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
   
@@ -113,9 +113,9 @@ void loop()
 
   //SEQÜENCIA_6_SEMÀFOR_B
   
-  digitalWrite(led2, LOW);    // posar a 5V el pin 10         (VERMELL)
-  digitalWrite(led3, HIGH);   // posar a 5V el pin 11         (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12         (VERD)
+  digitalWrite(led5, LOW);    // posar a 5V el pin 10         (VERMELL)
+  digitalWrite(led6, HIGH);   // posar a 5V el pin 11         (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12         (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -127,9 +127,9 @@ void loop()
 
   //SEQÜENCIA_7_SEMÀFOR_B
   
-  digitalWrite(led2, LOW);    // posar a 5V el pin 10         (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11         (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12         (VERD)
+  digitalWrite(led5, LOW);    // posar a 5V el pin 10         (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11         (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12         (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -141,9 +141,9 @@ void loop()
 
   //SEQÜENCIA_8_SEMÀFOR_B
   
-  digitalWrite(led2, LOW);    // posar a 5V el pin 10         (VERMELL)
-  digitalWrite(led3, HIGH);   // posar a 5V el pin 11         (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12         (VERD)
+  digitalWrite(led5, LOW);    // posar a 5V el pin 10         (VERMELL)
+  digitalWrite(led6, HIGH);   // posar a 5V el pin 11         (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12         (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -155,9 +155,9 @@ void loop()
 
   //SEQÜENCIA_9_SEMÀFOR_B
   
-  digitalWrite(led2, LOW);    // posar a 5V el pin 10         (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11         (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12         (VERD)
+  digitalWrite(led5, LOW);    // posar a 5V el pin 10         (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11         (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12         (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -169,9 +169,9 @@ void loop()
 
   //SEQÜENCIA_10_SEMÀFOR_B
   
-  digitalWrite(led2, LOW);    // posar a 5V el pin 10         (VERMELL)
-  digitalWrite(led3, HIGH);   // posar a 5V el pin 11         (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12         (VERD)
+  digitalWrite(led5, LOW);    // posar a 5V el pin 10         (VERMELL)
+  digitalWrite(led6, HIGH);   // posar a 5V el pin 11         (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12         (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -183,9 +183,9 @@ void loop()
 
   //SEQÜENCIA_11_SEMÀFOR_B
   
-  digitalWrite(led2, HIGH);   // posar a 5V el pin 10         (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11         (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12         (VERD)
+  digitalWrite(led5, HIGH);   // posar a 5V el pin 10         (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11         (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12         (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
   
@@ -197,9 +197,9 @@ void loop()
 
   //SEQÜENCIA_12_SEMÀFOR_B
   
-  digitalWrite(led2, HIGH);   // posar a 5V el pin 10        (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11        (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12        (VERD)
+  digitalWrite(led5, HIGH);   // posar a 5V el pin 10        (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11        (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12        (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -211,9 +211,9 @@ void loop()
 
   //SEQÜENCIA_13_SEMÀFOR_B
   
-  digitalWrite(led2, HIGH);   // posar a 5V el pin 10        (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11        (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12        (VERD)
+  digitalWrite(led5, HIGH);   // posar a 5V el pin 10        (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11        (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12        (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -225,9 +225,9 @@ void loop()
 
   //SEQÜENCIA_14_SEMÀFOR_B
   
-  digitalWrite(led2, HIGH);   // posar a 5V el pin 10        (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11        (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12        (VERD)
+  digitalWrite(led5, HIGH);   // posar a 5V el pin 10        (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11        (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12        (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -239,9 +239,9 @@ void loop()
 
   //SEQÜENCIA_15_SEMÀFOR_B
   
-  digitalWrite(led2, HIGH);   // posar a 5V el pin 10        (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11        (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12        (VERD)
+  digitalWrite(led5, HIGH);   // posar a 5V el pin 10        (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11        (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12        (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -253,9 +253,9 @@ void loop()
 
   //SEQÜENCIA_16_SEMÀFOR_B
   
-  digitalWrite(led2, HIGH);   // posar a 5V el pin 10        (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11        (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12        (VERD)
+  digitalWrite(led5, HIGH);   // posar a 5V el pin 10        (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11        (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12        (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -267,9 +267,9 @@ void loop()
 
   //SEQÜENCIA_17_SEMÀFOR_B
   
-  digitalWrite(led2, HIGH);   // posar a 5V el pin 10        (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11        (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12        (VERD)
+  digitalWrite(led5, HIGH);   // posar a 5V el pin 10        (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11        (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12        (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -281,9 +281,9 @@ void loop()
 
   //SEQÜENCIA_18_SEMÀFOR_B
   
-  digitalWrite(led2, HIGH);   // posar a 5V el pin 10        (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11        (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12        (VERD)
+  digitalWrite(led5, HIGH);   // posar a 5V el pin 10        (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11        (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12        (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -295,9 +295,9 @@ void loop()
 
   //SEQÜENCIA_19_SEMÀFOR_B
   
-  digitalWrite(led2, HIGH);   // posar a 5V el pin 10        (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11        (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12        (VERD)
+  digitalWrite(led5, HIGH);   // posar a 5V el pin 10        (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11        (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12        (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -309,9 +309,9 @@ void loop()
 
   //SEQÜENCIA_20_SEMÀFOR_B
   
-  digitalWrite(led2, HIGH);   // posar a 5V el pin 10        (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11        (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12        (VERD)
+  digitalWrite(led5, HIGH);   // posar a 5V el pin 10        (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11        (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12        (VERD)
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
 
@@ -323,9 +323,9 @@ void loop()
 
   //SEQÜENCIA_21_SEMÀFOR_B
   
-  digitalWrite(led2, HIGH);   // posar a 5V el pin 10        (VERMELL)
-  digitalWrite(led3, LOW);    // posar a 5V el pin 11        (TARONJA)
-  digitalWrite(led4, LOW);    // posar a 5V el pin 12        (VERD)
+  digitalWrite(led5, HIGH);   // posar a 5V el pin 10        (VERMELL)
+  digitalWrite(led6, LOW);    // posar a 5V el pin 11        (TARONJA)
+  digitalWrite(led7, LOW);    // posar a 5V el pin 12        (VERD)
   
   
   delay(TEMPS);                  // es queden leds 1000ms encesos ****************
