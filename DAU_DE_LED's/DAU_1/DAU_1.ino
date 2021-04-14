@@ -1,7 +1,7 @@
 /**********************************************************************************
 **                                                                               **
 **                            Dau de LEDs                                        **
-**                                                                               **
+**                              ALEATORI                                         **
 **                                                                               **
 **********************************************************************************/
 
@@ -9,142 +9,116 @@
 
 //********** Variables ************************************************************
 
-const int quatre = 5;
-const int tres = 6;
-const int dos = 7;
-const int un = 8;
+const int N4=5;               // donar nom al pin 5 de l’Arduino
+const int N3=6;               // donar nom al pin 6 de l’Arduino
+const int N2=7;               // donar nom al pin 7 de l’Arduino
+const int N1=8;               // donar nom al pin 8 de l’Arduino
 const int buttonPin = 2; 
-int buttonState = LOW;     // variable per llegir l'estat del polsador
+int buttonState = LOW;       // variable per llegir l'estat del polsador
 int buttonPushCounter = 0;
-int temps = 500;
+unsigned long TEMPS = 500;   // es queden leds 500ms encesos
 
+//********** Setup ****************************************************************
 void setup() 
 {
-   pinMode(quatre, OUTPUT);
-   pinMode(tres, OUTPUT);
-   pinMode(dos, OUTPUT);
-   pinMode(un, OUTPUT);
+   pinMode(N4, OUTPUT);
+   pinMode(N3, OUTPUT);
+   pinMode(N2, OUTPUT);
+   pinMode(N1, OUTPUT);
    pinMode(buttonPin, INPUT); 
    Serial.begin(9600);
 }
 
+//********** loop *****************************************************************
 void loop() {
   
-  buttonState = digitalRead(buttonPin);
-  
-  if (buttonState == LOW) 
-  
-  {
-    
-    buttonPushCounter = buttonPushCounter + 1;
-    
-    if (buttonPushCounter == 1 )
-    
-   { 
-     // 1
-     
-     Serial.println(buttonPushCounter);
-     digitalWrite(quatre, LOW);
-     digitalWrite(tres, LOW);
-     digitalWrite(dos, LOW);
-     digitalWrite(un, HIGH);
+  buttonState = digitalRead(buttonPin);  
+  if (buttonState == LOW)   
+{    
+  buttonPushCounter = buttonPushCounter + 1;    
+  if (buttonPushCounter == 1 )
+{ 
+// 1     
+  Serial.println(buttonPushCounter);
+  digitalWrite(N4, LOW);
+  digitalWrite(N3, LOW);
+  digitalWrite(N2, LOW);
+  digitalWrite(N1, HIGH);
       
-      delay(temps);
-    }
-    
+  delay(TEMPS);             // es queden leds 500ms encesos  
+}   
     else if (buttonPushCounter == 2 )
+{
+// 2
     
-  {
-    // 2
+  Serial.println(buttonPushCounter);
+  digitalWrite(N4, HIGH);
+  digitalWrite(N3, LOW);
+  digitalWrite(N2, LOW);
+  digitalWrite(N1, LOW);
+      
+  delay(TEMPS);             // es queden leds 500ms encesos  
+}   
+    else if (buttonPushCounter == 3 )
+{
+// 3
     
-     Serial.println(buttonPushCounter);
-     digitalWrite(quatre, HIGH);
-     digitalWrite(tres, LOW);
-     digitalWrite(dos, LOW);
-     digitalWrite(un, LOW);
+  Serial.println(buttonPushCounter);
+  digitalWrite(N4, LOW);
+  digitalWrite(N3, HIGH);
+  digitalWrite(N2, LOW);
+  digitalWrite(N1, HIGH);
       
-      delay(temps);
-   }
+  delay(TEMPS);             // es queden leds 500ms encesos  
+}   
+    else if (buttonPushCounter == 4 )
+{
+// 4
+    
+  Serial.println(buttonPushCounter); 
+  digitalWrite(N4, LOW);
+  digitalWrite(N3, HIGH);
+  digitalWrite(N2, HIGH);
+  digitalWrite(N1, LOW);
       
-    else if (buttonPushCounter == 3 ) 
+  delay(TEMPS);             // es queden leds 500ms encesos  
+}   
+    else if (buttonPushCounter == 5 )
+{
+// 5
+    
+  Serial.println(buttonPushCounter);
+  digitalWrite(N4, LOW);
+  digitalWrite(N3, HIGH);
+  digitalWrite(N2, HIGH);
+  digitalWrite(N1, HIGH);
+      
+  delay(TEMPS);             // es queden leds 500ms encesos  
+}   
+    else if (buttonPushCounter == 6 )
+{
+// 6
+  Serial.println(buttonPushCounter);
+  digitalWrite(N4, HIGH);
+  digitalWrite(N3, HIGH);
+  digitalWrite(N2, HIGH);
+  digitalWrite(N1, LOW);
+      
+  delay(TEMPS);             // es queden leds 500ms encesos  
+}   
+    else 
+{
+buttonPushCounter = 0 ;
+}
+}
+    else if (buttonPushCounter == 0 )
+{
+  digitalWrite(N4, LOW);
+  digitalWrite(N3, LOW);
+  digitalWrite(N2, LOW);
+  digitalWrite(N1, LOW);
      
-  {
-    // 3
-    
-     Serial.println(buttonPushCounter);
-     digitalWrite(quatre, LOW);
-     digitalWrite(tres, HIGH);
-     digitalWrite(dos, LOW);
-     digitalWrite(un, HIGH);
-      
-      delay(temps);
-  } 
-
-     else if (buttonPushCounter == 4 )
-
-  { 
-    // 4
-    
-     Serial.println(buttonPushCounter); 
-     digitalWrite(quatre, LOW);
-     digitalWrite(tres, HIGH);
-     digitalWrite(dos, HIGH);
-     digitalWrite(un, LOW);
-      
-      delay(temps);
-    
-  }   
-     else if (buttonPushCounter == 5 ) 
-
-     
-   {
-    // 5
-    
-     Serial.println(buttonPushCounter);
-     digitalWrite(quatre, LOW);
-     digitalWrite(tres, HIGH);
-     digitalWrite(dos, HIGH);
-     digitalWrite(un, HIGH);
-      
-      delay(temps);
-    
-      
-  }
-      
-     else if (buttonPushCounter == 6 )
-
-  {
-    // 6
-      Serial.println(buttonPushCounter);
-     digitalWrite(quatre, HIGH);
-     digitalWrite(tres, HIGH);
-     digitalWrite(dos, HIGH);
-     digitalWrite(un, LOW);
-      
-      delay(temps);
-   }
-      
-
-
-      else 
-      
-   {
-      
-      buttonPushCounter = 0 ;
-
-   }
-   
- }
-
-     else if (buttonPushCounter == 0)
-
-   {
-     digitalWrite(quatre, LOW);
-     digitalWrite(tres, LOW);
-     digitalWrite(dos, LOW);
-     digitalWrite(un, LOW);
-     
-      delay(300); 
-   }
+  delay(TEMPS);             // es queden leds 500ms encesos  
+}
 
 }
