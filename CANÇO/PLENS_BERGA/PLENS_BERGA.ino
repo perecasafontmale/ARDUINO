@@ -54,7 +54,7 @@ void playTone(int tone, int duration) {
 void playNote(char note, int duration) {
   char names[] = { 'c', 'd', 'e', 'f', 'g', 'a', 'b', 'C' , 'D'};
   int tones[] = { 1915, 1700, 1519, 1432, 1275, 1136, 1014, 956, 840};
-{ 1915, 1700, 1519, 1432, 1275, 1136, 1014, 956, 840};
+
   // play the tone corresponding to the note name
   for (int i = 0; i < 9; i++) {
     if (names[i] == note) {
